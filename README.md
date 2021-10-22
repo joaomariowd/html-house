@@ -61,3 +61,15 @@ Descobrir qual classe única de cada degrau e customizar a cor de fundo para cad
 Dica: utilizar o inspetor para descobrir as classes únicas de cada degrau.
 
 Dica 2: se o seletor para essas classes únicas não existir no arquivo style.css, abrir um seletor novo para cada classe.
+
+## Curiosidade sobre o Inspetor
+
+Na aba **Styles** ele mostra todas as regras de CSS aplicadas a cada elemento.
+
+Na aba **Computed** aparece os valores que foram de fato aplicados a cada elemento.
+
+As regras de CSS mais genéricas são substituidas pelas mais específicas sucessivamente.
+
+**Exemplo**: Alterando a cor de fundo da janela ```.window```, será alterado em todas as janelas. 
+
+Ajustando o elemento ```.door .window``` a cor da janela da porta ficará diferente das demais.
